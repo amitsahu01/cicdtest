@@ -1,0 +1,2 @@
+sap.ui.define(["sap/fe/test/ObjectPage"],function(e){"use strict";var t={actions:{},assertions:{}};return new e({appId:"Riskmanagement2002.Miti2002",componentId:"RisksObjectPage",entitySet:"Risks"},t)});
+//# sourceMappingURL=RisksObjectPage.js.map

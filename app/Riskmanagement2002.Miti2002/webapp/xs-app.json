@@ -1,0 +1,27 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/service/Riskmanagement2002/(.*)$",
+      "target": "/service/Riskmanagement2002/$1",
+      "destination": "Riskmanagement2002-app-srv",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+    }
+  ],
+  "responseHeaders": [
+    {
+      "name": "Content-Security-Policy",
+      "value": "frame-ancestors 'self' *.hana.ondemand.com *applicationstudio.cloud.sap"
+    }
+  ]
+}

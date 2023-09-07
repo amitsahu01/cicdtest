@@ -1,0 +1,5 @@
+{
+  "ProjectOverviewURL": "https://lcapteched.launchpad.cfapps.eu10.hana.ondemand.com/lcapRiskmanagement2002.Riskmanagement2002Launchpad-1.0.0",
+  "DeployedUTCTime": "2023-09-03T10:28:38.411Z",
+  "ApplicationLogURL": "https://logs.cf.eu10-004.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:Riskmanagement2002-srv)))))"
+}

@@ -1,0 +1,14 @@
+[
+	{
+		"entity": "Risks",
+		"namespace": "Riskmanagement2002",
+		"file": "/home/user/projects/Riskmanagement2002/db/data/Riskmanagement2002-Risks.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Mitigations",
+		"namespace": "Riskmanagement2002",
+		"file": "/home/user/projects/Riskmanagement2002/db/data/Riskmanagement2002-Mitigations.csv",
+		"isFixed": false
+	}
+]
